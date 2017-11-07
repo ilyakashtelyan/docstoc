@@ -50,7 +50,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'JPS Documentation'
+project = 'Oncotarget Documentation'
 copyright = '2017, Oncotarget'
 author = 'Oncotarget'
 
@@ -119,7 +119,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'JPSinst'
+htmlhelp_basename = 'ONCOdocs'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -146,7 +146,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'JPS.tex', 'JPS instructions documents Documentation',
+    (master_doc, 'docs.tex', 'Oncotarget Documentation',
      'Oncotarget', 'manual'),
 ]
 
@@ -156,7 +156,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'jpsint', 'JPS instructions documents Documentation',
+    (master_doc, 'ONCOdocs', 'Oncotarget Documentation',
      [author], 1)
 ]
 
@@ -167,8 +167,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'PMCCorrectionsdocuments', 'PMC Corrections documents Documentation',
-     author, 'PMCCorrectionsdocuments', 'One line description of project.',
+    (master_doc, 'ONCOdocs', 'Oncotarget Documentation',
+     author, 'ONCOdocs', 'Oncotarget Documentation',
      'Miscellaneous'),
 ]
 
